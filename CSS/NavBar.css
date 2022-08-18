@@ -1,0 +1,37 @@
+#NAVBAR{
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    gap: 100px;
+    padding: 5px 0px 5px 200px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  
+#NAVBAR a:hover{
+    color: white;
+  }
+  
+  #NAVBAR ul{
+    display: flex;
+    gap: 10PX;
+  }
+  #NAVBAR li{
+  list-style: none;
+  }
+  
+  #NAVBAR a{
+    text-decoration: none;
+    color: gray;
+  }
+
+  #profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: not-allowed;
+    
+  }

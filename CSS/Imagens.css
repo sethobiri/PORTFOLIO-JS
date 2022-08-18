@@ -1,0 +1,47 @@
+#BANNER{
+    height: 300px;
+    width:100%;
+   }
+   
+#PROFILE__BOX{
+     padding: 2rem;
+     display:flex;
+     gap: 2rem;
+     position: relative;
+     margin-left: 30px;
+   }
+   
+
+#profile__picture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: not-allowed;
+   top: -150px;
+    position: relative;
+    margin-left: 500px;
+  
+  }
+  #Profile__social:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  #SMALL__IMAGES{
+    margin-top: -3px;
+    position:relative;
+    margin-left: 550px;
+    margin-top: -170px;
+    
+  }
+
+#Profile__social{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  #card img{
+    width: 360px;
+    height: 300px;
+    align-self: center;
+  }

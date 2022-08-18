@@ -1,0 +1,136 @@
+*{
+  box-sizing:border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family:sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  list-style-position: inside;
+  
+}
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+width: 100%;
+min-height: 100%;
+}
+
+@media screen and (max-width: 600px){
+ body{
+  align-content: center;
+ }
+  #NAVBAR{
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 20px 0px 0px ;
+    gap: 20px;   
+text-transform:lowercase; size:0.1cm;}
+
+
+  
+#profile{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: not-allowed;
+  margin-left: 10px;
+}
+
+#NAVBAR ul{
+  font-size: 8px;
+  text-transform: uppercase;
+  gap: 5px;
+}
+
+#BANNER{
+  height: 200px;
+  width:100%;
+ }
+
+ #PROFILE__BOX{
+  padding: 2rem;
+  display:block;
+  gap: 2rem;
+  position: relative;
+margin: 0%;
+}
+
+#profile__picture{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  cursor: not-allowed;
+  vertical-align: middle;
+  margin: 0%;
+  top: 0%;
+}
+
+#Profile__social{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+}
+
+#SMALL__IMAGES{
+  margin-top: 0px;
+  position:relative;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+#AVATAR__TEXT{
+  max-width: 500px;
+ margin: 0%;
+ font-size: small;
+ display: flex;
+ flex-wrap: wrap;
+ padding: 0%;
+
+}
+
+#INFO_BOX{
+  display:block;
+    align-items: center;
+    justify-content: center;
+    background-color:#434343;
+    padding: 30px 30px 30px 30px;
+    color: gray;
+  }
+
+  #INFO_BOX_ONE{
+    align-content: center;
+    display:block;
+      align-items: center;
+      justify-content: center;
+      background-color:#DEDEDE;
+      padding: 30px 30px 30px 30px;
+      color: gray;
+    }
+
+    #BOX{
+      display:flex;
+      align-items:center;
+     margin-left: 30px;
+     }
+    
+     #contatos{
+      display:flex;
+      align-items:center;
+     margin-left: 30px;
+      
+    }
+    
+    #form{
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      margin:0px;
+      width:300px;
+      
+    }
+}

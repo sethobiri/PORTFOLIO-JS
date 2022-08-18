@@ -1,0 +1,21 @@
+#card{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding:20px;
+    margin:30px 30px 30px 0px;
+    width: 400px;
+    height: 600px;
+    transition: all 0.3s ease-out;
+ }
+ 
+ #card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+   }
+
+#BOX{
+    display:flex;
+    align-items:center;
+   margin-left: 500px;
+   }
