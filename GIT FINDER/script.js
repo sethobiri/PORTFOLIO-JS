@@ -55,13 +55,13 @@
             <div class="row">
                 <div class="col-md-6"><a href="${repos.html_url}" target="_blank">${repos.name}</a></div>
                 <div class="col-md-6">
-                    <SPAn class="badge badge-primary">stars: ${repos.stargazers_count}</SPAn>
-                    <SPAn class="badge badge-primary">watch: ${repos.watchers_count}</SPAn>
-                    <SPAn class="badge badge-primary">forks: ${repos.forks_count}</SPAn>
+                    <span class="badge badge-primary">stars: ${repos.stargazers_count}</SPAn>
+                    <span class="badge badge-primary">watch: ${repos.watchers_count}</span>
+                    <span class="badge badge-primary">forks: ${repos.forks_count}</span>
                 </div>
             </div>
         </div>`;
-        })
+        });
 
         document.getElementById("repos").innerHTML = output;
     }
