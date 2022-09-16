@@ -6,16 +6,18 @@
     height: 50px;
     padding: 2px;
   }
+
+  #card button:hover {
+    background-color: gray;
+  }
   
   #card button a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
   }
-#card button:hover{
-  opacity:70%;
- 
-}
+
+
   #BUTTONS{
     justify-content: space-around;
     display: flex;
@@ -30,10 +32,21 @@
     
   }
   
-  
-  
   #Enviar{
     margin-top: 10px;
     margin-left: 30px;
   }
   
+  #bnt{
+    color: white;
+    background: none;
+    
+  }
+
+  #bnt:hover{
+    color: white;
+    background-color: gray;
+    background: gray;
+   width: 100px;
+   padding: 2px;
+  }

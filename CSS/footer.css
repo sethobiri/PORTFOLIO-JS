@@ -6,31 +6,122 @@
     
 }
 
-footer{
-  color:gray;
-  background-color:black;
+
+
+#form{
+  padding: 30px;
+}
+
+#container{
+  padding: 50px 40px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.form-control{
+  padding: 0px;
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.form-control label{
+  display: inline-block;
+  margin-bottom: 5px;
+  color: white;
   
 }
 
-#form{
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  margin:20px;
-  width:300px;
-  
+.form-control input{
+  border: 2px solid black;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-size: 12px; 
 }
+
+.form-control.error input{
+  border-color: red;
+}
+
+.form-control.success input{
+  border-color: green;
+}
+
+.form-control i{
+  position: absolute;
+  top: 26px;
+  right:5px;
+  visibility: hidden;
+}
+
+.form-control.error small{
+  visibility: visible;
+  color: red;
+}
+
+.form-control.success i.success{
+  visibility: visible;
+}
+
+.form-control.error i.error{
+  visibility: visible;
+}
+
+.form-control small{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+
+
+#form button{
+  justify-content: space-around;
+}
+
+
+#submitBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
 
 #Social{
   align-items: center;
   justify-content: center;
   width:300px;
+  top: 20px;
+}
+
+#Social h2{
+ padding: 50px 0 50px 0;
+ color: white;
 
 }
 
-#contatos{
-  display:flex;
-  align-items:center;
- margin-left: 500px;
+
+
+#myContacts{
+  display: flex;
+ gap: 20px;
+ padding: 30px 0 0 0;
+ 
+}
+ #figure img{
+ margin-left: 10px;
+ }
+
+footer{
+  color:gray;
+  background-color:black;
+  padding: 0%;
+  display: flex;
+  
+  align-content: center;
+  padding: 0 0 0 500px;
   
 }

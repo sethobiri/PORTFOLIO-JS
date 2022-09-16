@@ -43,7 +43,7 @@ text-transform:lowercase; size:0.1cm;}
 #NAVBAR ul{
   font-size: 8px;
   text-transform: uppercase;
-  gap: 5px;
+  gap: 8px;
 }
 
 #BANNER{
@@ -56,7 +56,7 @@ text-transform:lowercase; size:0.1cm;}
   display:block;
   gap: 2rem;
   position: relative;
-margin: 0%;
+  margin: 0%;
 }
 
 #profile__picture{
@@ -67,6 +67,7 @@ margin: 0%;
   vertical-align: middle;
   margin: 0%;
   top: 0%;
+position: relative;
 }
 
 #Profile__social{
@@ -77,21 +78,29 @@ margin: 0%;
 }
 
 #SMALL__IMAGES{
-  margin-top: 0px;
-  position:relative;
+  position:absolute;
   margin: 0px;
-  margin-left: 20px;
+  margin-left: 15px;
+  gap: 3px;
+  margin-bottom: 50px;
+  margin-top: -15px;
+  
 }
 
+#caption{
+display: none;
+}
 #AVATAR__TEXT{
   max-width: 500px;
- margin: 0%;
- font-size: small;
- display: flex;
- flex-wrap: wrap;
- padding: 0%;
+  margin: 0%;
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+  margin-left: 30px;
 
 }
+
 
 #INFO_BOX{
   display:block;
@@ -130,7 +139,10 @@ margin: 0%;
       justify-content: center;
       padding: 20px;
       margin:0px;
-      width:300px;
-      
+      width:200px;
+    }
+   
+    #textArea{
+      width: 160px;
     }
 }

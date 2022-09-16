@@ -8,8 +8,32 @@
     align-items: center;
     text-transform: uppercase;
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    font-size: small
+    
   }
 
+  #git{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+  }
+
+  .gitfinder p{
+    color: white;
+  }
+
+  .gitfinder {
+    display: flex;
+    align-content: center;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    justify-content: space-evenly;
+  }
   
 #NAVBAR a:hover{
     color: white;
@@ -17,7 +41,7 @@
   
   #NAVBAR ul{
     display: flex;
-    gap: 10PX;
+    gap: 20PX;
   }
   #NAVBAR li{
   list-style: none;

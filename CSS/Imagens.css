@@ -7,8 +7,8 @@
      padding: 2rem;
      display:flex;
      gap: 2rem;
-     position: relative;
      margin-left: 30px;
+     width: 500px;
    }
    
 
@@ -17,7 +17,7 @@
     width: 200px;
     border-radius: 50%;
     cursor: not-allowed;
-   top: -150px;
+    top: -150px;
     position: relative;
     margin-left: 500px;
   
@@ -27,18 +27,33 @@
     cursor: pointer;
   }
   #SMALL__IMAGES{
-    margin-top: -3px;
-    position:relative;
-    margin-left: 550px;
-    margin-top: -170px;
-    
+    position: absolute;
+    display: flex; 
+    align-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 530px;
+    width: 300px;
   }
-
+ 
 #Profile__social{
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
+
+  #Profile__socialgit{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  #Profile__socialgit:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+
+  }
+
   
   #card img{
     width: 360px;
